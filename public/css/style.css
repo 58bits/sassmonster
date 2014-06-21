@@ -31,7 +31,7 @@ header h1 {
   font-family: 'Pacifico', Helvetica, sans-serif;
   font-size: 2em;
   color: #222;
-  text-shadow: 1px 1px 1px #2E2E2E;
+  text-shadow: 1px 1px 0px #2E2E2E;
   white-space: nowrap;
 }
 @media (min-width: 600px) {
