@@ -1,0 +1,123 @@
+// Import
+@import "main";
+
+// Singularity 1.2 Syntax
+@include sgs-change('debug', true);
+@include sgs-change('mobile first', true);
+@include sgs-change('output', 'isolation');
+//@include sgs-change('include clearfix', true);
+
+
+$break: 600px;
+$break2: 900px;
+$break3: 1200px;
+
+@include add-grid(2);
+@include add-grid(4 at $break);
+@include add-grid(12 at $break2);
+@include add-grid(16 at $break3);
+@include add-gutter(0.2);
+
+*, *:before, *:after {
+  @include box-sizing(border-box);
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  @include background-grid($color: #e8b491);
+}
+
+header {
+  background-color: rgba(200,200,200,0.75);
+  height: 70px;
+}
+
+nav {
+  background-color: grey;
+  height: 20px;
+}
+
+
+#main {
+  
+  background-color: rgba(200,200,100,0.75);
+
+  article { background: purple;}
+  
+
+  @include grid-span(2, 1);
+
+  @include breakpoint($break) {
+    @include grid-span(3, 1);
+  }
+
+  @include breakpoint($break2) {
+    @include grid-span(8, 1);
+  }
+
+  @include breakpoint($break3) {
+    @include grid-span(10, 1);
+  }
+}
+
+aside {
+  background: green;
+  @include grid-span(2, 1, $options: 'both');
+
+  @include breakpoint($break) {
+    @include grid-span(1, 4);
+  }
+
+  @include breakpoint($break2) {
+    @include grid-span(4, 9);
+  }
+
+  @include breakpoint($break3) {
+    @include grid-span(6, 11);
+  }
+}
+
+footer {
+  background: yellow;
+  section {background: pink; padding: 4px;}
+  
+  @include grid-span(2, 1);
+  @include layout($gutter: .1) {   
+    .section1 { @include grid-span(1, 1);}
+    .section2 { @include grid-span(1, 2);}
+    .section3 { @include grid-span(1, 1); clear: both;}
+    .section4 { @include grid-span(1, 2);}
+  }
+
+  @include breakpoint($break) {
+    @include grid-span(4, 1);
+    .section1 {@include grid-span(1,1);}
+    .section2 {@include grid-span(1,2);}
+    .section3 {@include grid-span(1,3);}
+    .section4 {@include grid-span(1,4);}
+  }
+
+  @include breakpoint($break2) {
+    @include grid-span(12, 1);
+    .section1 {@include grid-span(3,1);}
+    .section2 {@include grid-span(3,4);}
+    .section3 {@include grid-span(3,7);}
+    .section4 {@include grid-span(3,10);}
+
+  }
+
+  @include breakpoint($break3) {
+    @include grid-span(16, 1);
+    .section1 {@include grid-span(4,1);}
+    .section2 {@include grid-span(4,5);}
+    .section3 {@include grid-span(4,9);}
+    .section4 {@include grid-span(4,13);}
+  }
+}
+
+footer {
+  clear: both;
+}
+

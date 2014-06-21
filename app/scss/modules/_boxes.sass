@@ -1,0 +1,23 @@
+// Variables and mixins for meta box margin calculation.
+$box-dimensions: 60px
+$box-padding: 3px
+$box-border: 1px
+
+@mixin margin-for-columns($columns, $boxes-per-line)
+  $box-margin: (columns($columns) - $boxes-per-line * $box-dimensions) / ($boxes-per-line - 1)
+
+  +rem(margin, 0 $box-margin $box-margin 0)
+
+  &:nth-child(#{$boxes-per-line}n+#{$boxes-per-line})
+    +rem(margin-right, 0px)
+
+@mixin box($color)
+  border-color: $color
+  color: $color
+  a
+    width: 100%
+    height: 100%
+    display: block
+    +link-colors($color !important, #fff !important, #fff !important, $color !important, $color !important)
+    &:hover
+      background: $color

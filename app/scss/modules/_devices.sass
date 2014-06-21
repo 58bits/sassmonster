@@ -1,0 +1,48 @@
+@mixin high-dpi-background($img)
+  background-image: image-url(high-dpi($img))
+  background-size: image-width($img) image-height($img)
+
+@mixin respond-to($media)
+  @if $media == high-dpi
+    $pixel-ratio: 1.4
+    @media only screen and (min-device-pixel-ratio: $pixel-ratio), only screen and (-webkit-min-device-pixel-ratio: $pixel-ratio)
+      @content
+
+  @else if $media == max-width-480
+    @media only screen and (max-width: 479px)
+      @content
+
+  @else if $media == width-480
+    @media only screen and (min-width: 480px)
+      @content
+
+  @else if $media == only-width-480
+    @media only screen and (min-width: 480px) and (max-width: 767px)
+      @content
+
+  @else if $media == width-768
+    @media only screen and (min-width: 768px)
+      @content
+
+  @else if $media == only-width-768
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      @content
+
+  @else if $media == max-width-1024
+    @media only screen and (max-width: 1023px)
+      @content
+
+  @else if $media == width-1024
+    @media only screen and (min-width: 1024px)
+      @content
+
+  @else if $media == only-width-1024
+    @media only screen and (min-width: 1024px) and (max-width: 1199px)
+      @content
+
+  @else if $media == width-1200
+    @media only screen and (min-width: 1200px)
+      @content
+
+  @else
+    @warn Unknown device type $media, skipping this rule

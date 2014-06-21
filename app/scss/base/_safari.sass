@@ -1,0 +1,11 @@
+// Safari 5.* specific styles.
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+  ::i-block-chrome, main nav ul ul a
+    &:before
+      +rem(margin-left, -13px) // Otherwise 2nd level nav dot would indent the nav element's text.
+    &.active
+      &:before
+        content: ''
+    &:hover
+      &:before
+        content: ''

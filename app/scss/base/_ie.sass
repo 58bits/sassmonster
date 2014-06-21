@@ -1,0 +1,100 @@
+﻿@-ms-viewport
+  width: device-width
+
+.ie
+  header#page
+    #search
+      $border-width: 1px
+      input[type='search']
+        +rem(height, $line-height - 2 * 1px - 3px)
+
+  main
+    nav
+      ul
+        ul
+          a:before
+            +rem(margin-left, -13px) // Otherwise 2nd level nav dot would indent the nav element's text.
+
+  main
+    nav
+      ul
+        +respond-to(width-768)
+          li
+            +rem(width, columns(4) - 1px)
+          li + li + li
+            clear: left
+        +respond-to(width-1024)
+          li + li + li
+            clear: none
+          li + li + li + li
+            clear: left
+
+    nav > ul.children-4
+      +respond-to(width-768)
+        li + li + li
+          clear: left
+        li + li + li + li
+          clear: none
+      +respond-to(width-1024)
+        li
+          +rem(width, columns(3) - 1px)
+        li + li + li
+          clear: none
+      +respond-to(width-1200)
+        li
+          +rem(width, columns(3.5) - 1px)
+
+  #teaser-blocks
+    section
+      vertical-align: top
+
+  .tipsy
+    .tipsy-inner
+      max-width: 200px + 15px
+
+.ie8
+  +respond-to(width-480)
+    form
+      .short + .short
+        width: 50%
+        padding-right: 0
+
+  main
+    nav
+      ul
+        ul
+          a:before
+            font-size: 90%
+
+.no-boxshadow
+  main
+    +respond-to(width-768)
+      border: 1px solid $faint-gray
+      background-color: white
+
+// IE-10/11-specific styles.
+// http://goo.gl/dGIUr
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+  main
+    nav
+      ul
+        ul
+          a
+            &:before
+              +rem(margin-left, -13px) // Otherwise 2nd level nav dot would indent the nav element's text.
+            // IE-11-hack.
+            &.active
+              &:before
+                content: ''
+            &:hover
+              &:before
+                content: ''
+
+  #teaser
+    .prev, .next
+      visibility: visible
+      overflow: hidden
+
+  #teaser-blocks
+    section
+      vertical-align: top

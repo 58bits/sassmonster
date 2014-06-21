@@ -1,0 +1,26 @@
+{
+  "name": "Frontend-Sass",
+  "version": "0.0.1",
+  "authors": [
+    "Anthony Bouch <tony@58bits.com>"
+  ],
+  "description": "My Fronted playpen.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "normalize-css": "~3.0.1"
+  },
+  "devDependencies": {
+    "modular-scale": "~2.0.5",
+    "singularity": "~1.2.1",
+    "sass-toolkit": "~2.4.0"
+  }
+}
