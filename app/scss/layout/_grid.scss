@@ -1,5 +1,5 @@
 // Singularity 1.2 Syntax
-@include sgs-change('debug', false);
+@include sgs-change('debug', true);
 @include sgs-change('mobile first', true);
 @include sgs-change('output', 'isolation');
 //@include sgs-change('include clearfix', true);

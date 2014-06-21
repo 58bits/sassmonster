@@ -6,11 +6,12 @@ footer {
   }
   
   @include grid-span(2, 1);
+  
   @include layout($gutter: .1) {   
-    .section1 { @include grid-span(1, 1);}
-    .section2 { @include grid-span(1, 2);}
-    .section3 { @include grid-span(1, 1); clear: both;}
-    .section4 { @include grid-span(1, 2);}
+    .section1 { @include grid-span(2, 1);}
+    .section2 { @include grid-span(2, 1);}
+    .section3 { @include grid-span(2, 1);}
+    .section4 { @include grid-span(2, 1);}
   }
 
   @include breakpoint($break) {
