@@ -3,20 +3,49 @@ nav {
   padding: $content-padding;
   width: 100%;
   @include box-shadow(0, 3px, 3px, 1px, #CCC, false);
-}
 
-nav a {
-  display: inline-block;
-  text-decoration: none;
-  padding: 8px 18px;
-  color: #000;
-}
+  a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 10px;
+    color: #000;
+  }
 
-nav a:hover {
-  padding: 6px 17px;
-  @include border-radius(2px);
-  border: 1px #AAA solid;
-  color: #555;
+  a:hover {
+    padding: 3px 9px;
+    @include border-radius(2px);
+    border: 1px #AAA solid;
+    color: #555;
+  }
+
+  @include breakpoint($break) {
+    a {
+      padding: 6px 16px;
+    }
+    a:hover {
+      padding: 5px 15px;
+    }
+  }
+
+  @include breakpoint($break2) {
+
+    a {
+      padding: 8px 18px;
+    }
+    a:hover {
+      padding: 7px 17px;
+    }
+    
+  }
+
+  @include breakpoint($break3) {
+    a {
+      padding: 8px 18px;
+    }
+    a:hover {
+      padding: 7px 17px;
+    }
+  }
 }
 
 .isStuck {
