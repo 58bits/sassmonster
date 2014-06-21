@@ -32,7 +32,7 @@ body {
 aside {
   background: #EFE;
   padding: $content-padding;
-  margin-bottom: 20px;
+  margin: 20px 0;
   @include grid-span(2, 1, $options: 'both');
 
   @include breakpoint($break) {

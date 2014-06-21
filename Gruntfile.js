@@ -82,6 +82,12 @@ module.exports = function(grunt) {
             filter: 'isFile'
         }, {
             expand: true,
+            cwd: 'bower_components/stickUp/',
+            src: 'stickUp.min.js',
+            dest: 'public/scripts/vendor/stickUp/',
+            filter: 'isFile'
+        }, {
+            expand: true,
             cwd: 'bower_components/normalize-css/',
             src: 'normalize.css',
             dest: 'public/css/',

@@ -1,17 +1,19 @@
 nav {
-  //background: rgba(200, 54, 54, 0.5); 
+  background: #FFF; 
   padding: $content-padding;
+  width: 100%;
+  @include box-shadow(0,4px,5px,0px, #EEE, false);
 }
 
 nav a {
   display: inline-block;
   text-decoration: none;
-  padding: 8px 15px;
+  padding: 8px 18px;
   color: #000;
 }
 
 nav a:hover {
-  padding: 6px 14px;
+  padding: 6px 17px;
   @include border-radius(2px);
   border: 1px #AAA solid;
   color: #555;

@@ -38,20 +38,25 @@ header h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\000031}}
 nav {
+  background: #FFF;
   padding: 10px;
+  width: 100%;
+  -webkit-box-shadow: 0 4px 5px 0px #eeeeee;
+  -moz-box-shadow: 0 4px 5px 0px #eeeeee;
+  box-shadow: 0 4px 5px 0px #eeeeee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\000038}}
 nav a {
   display: inline-block;
   text-decoration: none;
-  padding: 8px 15px;
+  padding: 8px 18px;
   color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000315}}
 nav a:hover {
-  padding: 6px 14px;
+  padding: 6px 17px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   background-clip: padding-box;
@@ -292,7 +297,7 @@ body {
 aside {
   background: #EFE;
   padding: 10px;
-  margin-bottom: 20px;
+  margin: 20px 0;
   width: 100%;
   float: right;
   margin-left: 0;
