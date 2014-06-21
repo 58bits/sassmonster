@@ -53,10 +53,11 @@ nav {
 }
 
 .isStuck .logo {
-  display: inline-block;
+  display: block;
+  @include breakpoint($break) { display: inline-block; }
+  @include breakpoint($break2) { display: inline-block; }
+  @include breakpoint($break3) { display: inline-block; }
 }
-
-
 
 .logo {
   display: none;

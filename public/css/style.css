@@ -119,10 +119,28 @@ nav a:hover {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000355}}
 .isStuck .logo {
-  display: inline-block;
+  display: block;
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000355}}
+  .isStuck .logo {
+    display: inline-block;
+  }
+}
+@media (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000355}}
+  .isStuck .logo {
+    display: inline-block;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000355}}
+  .isStuck .logo {
+    display: inline-block;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000362}}
 .logo {
   display: none;
   margin: 0 10px 0 0;
