@@ -1,0 +1,41 @@
+footer {
+  background: yellow;
+  section {background: pink; padding: 4px;}
+  
+  @include grid-span(2, 1);
+  @include layout($gutter: .1) {   
+    .section1 { @include grid-span(1, 1);}
+    .section2 { @include grid-span(1, 2);}
+    .section3 { @include grid-span(1, 1); clear: both;}
+    .section4 { @include grid-span(1, 2);}
+  }
+
+  @include breakpoint($break) {
+    @include grid-span(4, 1);
+    .section1 {@include grid-span(1,1);}
+    .section2 {@include grid-span(1,2);}
+    .section3 {@include grid-span(1,3);}
+    .section4 {@include grid-span(1,4);}
+  }
+
+  @include breakpoint($break2) {
+    @include grid-span(12, 1);
+    .section1 {@include grid-span(3,1);}
+    .section2 {@include grid-span(3,4);}
+    .section3 {@include grid-span(3,7);}
+    .section4 {@include grid-span(3,10);}
+
+  }
+
+  @include breakpoint($break3) {
+    @include grid-span(16, 1);
+    .section1 {@include grid-span(4,1);}
+    .section2 {@include grid-span(4,5);}
+    .section3 {@include grid-span(4,9);}
+    .section4 {@include grid-span(4,13);}
+  }
+}
+
+footer {
+  clear: both;
+}

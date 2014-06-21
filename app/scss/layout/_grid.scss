@@ -1,0 +1,21 @@
+// Singularity 1.2 Syntax
+@include sgs-change('debug', true);
+@include sgs-change('mobile first', true);
+@include sgs-change('output', 'isolation');
+//@include sgs-change('include clearfix', true);
+
+$content-padding: 10px;
+
+$break: 600px;
+$break2: 900px;
+$break3: 1200px;
+
+@include add-grid(2);
+@include add-grid(4 at $break);
+@include add-grid(12 at $break2);
+@include add-grid(16 at $break3);
+@include add-gutter(0.2);
+
+*, *:before, *:after {
+  @include box-sizing(border-box);
+}
