@@ -11,10 +11,13 @@ $break2: 900px;
 $break3: 1200px;
 
 @include add-grid(2);
-@include add-grid(4 at $break);
+@include add-grid(8 at $break);
 @include add-grid(12 at $break2);
 @include add-grid(16 at $break3);
-@include add-gutter(0.2);
+@include add-gutter(0.1);
+@include add-gutter(.1 at $break);
+@include add-gutter(.25 at $break2);
+@include add-gutter(.25 at $break3);
 
 *, *:before, *:after {
   @include box-sizing(border-box);

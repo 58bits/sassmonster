@@ -17,7 +17,7 @@ body {
   @include grid-span(2, 1);
 
   @include breakpoint($break) {
-    @include grid-span(3, 1);
+    @include grid-span(5, 1);
   }
 
   @include breakpoint($break2) {
@@ -36,7 +36,7 @@ aside {
   @include grid-span(2, 1, $options: 'both');
 
   @include breakpoint($break) {
-    @include grid-span(1, 4);
+    @include grid-span(3, 6);
   }
 
   @include breakpoint($break2) {

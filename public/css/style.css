@@ -7,10 +7,460 @@
  * Copyright 2014.  licensed.
  */
 
-*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}header{background-color:rgba(200,200,200,0.2);padding-left:10px}header h1{text-align:left;margin:0;font-family:'Pacifico', Helvetica, sans-serif;font-size:2em;color:#222;text-shadow:1px 1px 0px #2E2E2E;white-space:nowrap}@media (min-width: 600px){header h1{font-size:2em}}@media (min-width: 900px){header h1{font-size:3em}}@media (min-width: 1200px){header h1{font-size:4em}}
-nav{background:#FFF;padding:10px;width:100%;-webkit-box-shadow:0 3px 3px 1px #ccc;-moz-box-shadow:0 3px 3px 1px #ccc;box-shadow:0 3px 3px 1px #ccc}nav a{display:inline-block;text-decoration:none;padding:4px 8px;color:#000}nav a:hover{padding:3px 7px;-webkit-border-radius:2px;border-radius:2px;background-clip:padding-box;border:1px #AAA solid;color:#555}@media (min-width: 600px){nav a{padding:6px 16px}nav a:hover{padding:5px 15px}}@media (min-width: 900px){nav a{padding:8px 18px}nav a:hover{padding:7px 17px}}@media (min-width: 1200px){nav a{padding:8px 18px}nav a:hover{padding:7px 17px}}
-.isStuck{-webkit-box-shadow:0 3px 4px 1px #777;-moz-box-shadow:0 3px 4px 1px #777;box-shadow:0 3px 4px 1px #777}.isStuck .logo{display:block}@media (min-width: 600px){.isStuck .logo{display:inline-block}}@media (min-width: 900px){.isStuck .logo{display:inline-block}}@media (min-width: 1200px){.isStuck .logo{display:inline-block}}
-.logo{display:none;margin:0 10px 0 0;padding:0;font-family:'Pacifico', Helvetica, sans-serif;font-size:1.5em}footer{-sgs-span-settings:("span": 2, "location": 1, "grid": 2, "gutter": 0.2, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:100%;float:right;margin-left:0;margin-right:0;clear:none}footer section{background:rgba(100,100,100,0.2);padding:10px;min-height:3em}footer .section1{-sgs-span-settings:("span": 2, "location": 1, "grid": 2, "gutter": 0.1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:100%;float:right;margin-left:0;margin-right:0;clear:none}footer .section2{-sgs-span-settings:("span": 2, "location": 1, "grid": 2, "gutter": 0.1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:100%;float:right;margin-left:0;margin-right:0;clear:none}footer .section3{-sgs-span-settings:("span": 2, "location": 1, "grid": 2, "gutter": 0.1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:100%;float:right;margin-left:0;margin-right:0;clear:none}footer .section4{-sgs-span-settings:("span": 2, "location": 1, "grid": 2, "gutter": 0.1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:100%;float:right;margin-left:0;margin-right:0;clear:none}@media (min-width: 600px){footer{-sgs-span-settings:("span": 4, "location": 1, "grid": 4, "gutter": 0.2, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:100%;float:right;margin-left:0;margin-right:0;clear:none}footer .section1{-sgs-span-settings:("span": 1, "location": 1, "grid": 4, "gutter": 0.2, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:21.73913%;float:left;margin-right:-100%;margin-left:0;clear:none}footer .section2{-sgs-span-settings:("span": 1, "location": 2, "grid": 4, "gutter": 0.2, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:21.73913%;float:left;margin-right:-100%;margin-left:26.08696%;clear:none}footer .section3{-sgs-span-settings:("span": 1, "location": 3, "grid": 4, "gutter": 0.2, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:21.73913%;float:left;margin-right:-100%;margin-left:52.17391%;clear:none}footer .section4{-sgs-span-settings:("span": 1, "location": 4, "grid": 4, "gutter": 0.2, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:21.73913%;float:right;margin-left:0;margin-right:0;clear:none}}@media (min-width: 900px){footer{-sgs-span-settings:("span": 12, "location": 1, "grid": 12, "gutter": 0.2, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:100%;float:right;margin-left:0;margin-right:0;clear:none}footer .section1{-sgs-span-settings:("span": 3, "location": 1, "grid": 12, "gutter": 0.2, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:23.94366%;float:left;margin-right:-100%;margin-left:0;clear:none}footer .section2{-sgs-span-settings:("span": 3, "location": 4, "grid": 12, "gutter": 0.2, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:23.94366%;float:left;margin-right:-100%;margin-left:25.35211%;clear:none}footer .section3{-sgs-span-settings:("span": 3, "location": 7, "grid": 12, "gutter": 0.2, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:23.94366%;float:left;margin-right:-100%;margin-left:50.70423%;clear:none}footer .section4{-sgs-span-settings:("span": 3, "location": 10, "grid": 12, "gutter": 0.2, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:23.94366%;float:right;margin-left:0;margin-right:0;clear:none}}@media (min-width: 1200px){footer{-sgs-span-settings:("span": 16, "location": 1, "grid": 16, "gutter": 0.2, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:100%;float:right;margin-left:0;margin-right:0;clear:none}footer .section1{-sgs-span-settings:("span": 4, "location": 1, "grid": 16, "gutter": 0.2, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:24.21053%;float:left;margin-right:-100%;margin-left:0;clear:none}footer .section2{-sgs-span-settings:("span": 4, "location": 5, "grid": 16, "gutter": 0.2, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:24.21053%;float:left;margin-right:-100%;margin-left:25.26316%;clear:none}footer .section3{-sgs-span-settings:("span": 4, "location": 9, "grid": 16, "gutter": 0.2, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:24.21053%;float:left;margin-right:-100%;margin-left:50.52632%;clear:none}footer .section4{-sgs-span-settings:("span": 4, "location": 13, "grid": 16, "gutter": 0.2, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:24.21053%;float:right;margin-left:0;margin-right:0;clear:none}}
-footer{clear:both}body{margin:0;padding:0;background-image:linear-gradient(to right, #ddd 0%,#ddd 45.45455%,#e5e5e5 45.45455%,#e5e5e5 54.54545%,#ddd 54.54545%,#ddd)}@media (min-width: 600px){body{background-image:linear-gradient(to right, #ddd 0%,#ddd 21.73913%,#e5e5e5 21.73913%,#e5e5e5 26.08696%,#ddd 26.08696%,#ddd 47.82609%,#e5e5e5 47.82609%,#e5e5e5 52.17391%,#ddd 52.17391%,#ddd 73.91304%,#e5e5e5 73.91304%,#e5e5e5 78.26087%,#ddd 78.26087%,#ddd)}}@media (min-width: 900px){body{background-image:linear-gradient(to right, #ddd 0%,#ddd 7.04225%,#e5e5e5 7.04225%,#e5e5e5 8.4507%,#ddd 8.4507%,#ddd 15.49296%,#e5e5e5 15.49296%,#e5e5e5 16.90141%,#ddd 16.90141%,#ddd 23.94366%,#e5e5e5 23.94366%,#e5e5e5 25.35211%,#ddd 25.35211%,#ddd 32.39437%,#e5e5e5 32.39437%,#e5e5e5 33.80282%,#ddd 33.80282%,#ddd 40.84507%,#e5e5e5 40.84507%,#e5e5e5 42.25352%,#ddd 42.25352%,#ddd 49.29577%,#e5e5e5 49.29577%,#e5e5e5 50.70423%,#ddd 50.70423%,#ddd 57.74648%,#e5e5e5 57.74648%,#e5e5e5 59.15493%,#ddd 59.15493%,#ddd 66.19718%,#e5e5e5 66.19718%,#e5e5e5 67.60563%,#ddd 67.60563%,#ddd 74.64789%,#e5e5e5 74.64789%,#e5e5e5 76.05634%,#ddd 76.05634%,#ddd 83.09859%,#e5e5e5 83.09859%,#e5e5e5 84.50704%,#ddd 84.50704%,#ddd 91.5493%,#e5e5e5 91.5493%,#e5e5e5 92.95775%,#ddd 92.95775%,#ddd)}}@media (min-width: 1200px){body{background-image:linear-gradient(to right, #ddd 0%,#ddd 5.26316%,#e5e5e5 5.26316%,#e5e5e5 6.31579%,#ddd 6.31579%,#ddd 11.57895%,#e5e5e5 11.57895%,#e5e5e5 12.63158%,#ddd 12.63158%,#ddd 17.89474%,#e5e5e5 17.89474%,#e5e5e5 18.94737%,#ddd 18.94737%,#ddd 24.21053%,#e5e5e5 24.21053%,#e5e5e5 25.26316%,#ddd 25.26316%,#ddd 30.52632%,#e5e5e5 30.52632%,#e5e5e5 31.57895%,#ddd 31.57895%,#ddd 36.84211%,#e5e5e5 36.84211%,#e5e5e5 37.89474%,#ddd 37.89474%,#ddd 43.15789%,#e5e5e5 43.15789%,#e5e5e5 44.21053%,#ddd 44.21053%,#ddd 49.47368%,#e5e5e5 49.47368%,#e5e5e5 50.52632%,#ddd 50.52632%,#ddd 55.78947%,#e5e5e5 55.78947%,#e5e5e5 56.84211%,#ddd 56.84211%,#ddd 62.10526%,#e5e5e5 62.10526%,#e5e5e5 63.15789%,#ddd 63.15789%,#ddd 68.42105%,#e5e5e5 68.42105%,#e5e5e5 69.47368%,#ddd 69.47368%,#ddd 74.73684%,#e5e5e5 74.73684%,#e5e5e5 75.78947%,#ddd 75.78947%,#ddd 81.05263%,#e5e5e5 81.05263%,#e5e5e5 82.10526%,#ddd 82.10526%,#ddd 87.36842%,#e5e5e5 87.36842%,#e5e5e5 88.42105%,#ddd 88.42105%,#ddd 93.68421%,#e5e5e5 93.68421%,#e5e5e5 94.73684%,#ddd 94.73684%,#ddd)}}
-#main{-sgs-span-settings:("span": 2, "location": 1, "grid": 2, "gutter": 0.2, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:100%;float:right;margin-left:0;margin-right:0;clear:none}#main article{padding:10px 10px 10px 20px}@media (min-width: 600px){#main{-sgs-span-settings:("span": 3, "location": 1, "grid": 4, "gutter": 0.2, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:73.91304%;float:left;margin-right:-100%;margin-left:0;clear:none}}@media (min-width: 900px){#main{-sgs-span-settings:("span": 8, "location": 1, "grid": 12, "gutter": 0.2, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:66.19718%;float:left;margin-right:-100%;margin-left:0;clear:none}}@media (min-width: 1200px){#main{-sgs-span-settings:("span": 10, "location": 1, "grid": 16, "gutter": 0.2, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:62.10526%;float:left;margin-right:-100%;margin-left:0;clear:none}}
-aside{background:#EFE;padding:10px;margin:20px 0;-sgs-span-settings:("span": 2, "location": 1, "grid": 2, "gutter": 0.2, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": (("both": null)));width:100%;float:right;margin-left:0;margin-right:0;clear:none}@media (min-width: 600px){aside{-sgs-span-settings:("span": 1, "location": 4, "grid": 4, "gutter": 0.2, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:21.73913%;float:right;margin-left:0;margin-right:0;clear:none}}@media (min-width: 900px){aside{-sgs-span-settings:("span": 4, "location": 9, "grid": 12, "gutter": 0.2, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:32.39437%;float:right;margin-left:0;margin-right:0;clear:none}}@media (min-width: 1200px){aside{-sgs-span-settings:("span": 6, "location": 11, "grid": 16, "gutter": 0.2, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));width:36.84211%;float:right;margin-left:0;margin-right:0;clear:none}}
+/*http://web-design-weekly.com/2013/05/12/handy-sass-mixins/*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_grid\.scss}line{font-family:\0000322}}
+*, *:before, *:after {
+  /* http://css-tricks.com/international-box-sizing-awareness-day/ */
+  /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
+  -webkit-box-sizing: border-box;
+  /* Firefox (desktop or Android) 28- */
+  -moz-box-sizing: border-box;
+  /* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_header\.scss}line{font-family:\000031}}
+header {
+  background-color: rgba(200, 200, 200, 0.2);
+  padding-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_header\.scss}line{font-family:\000036}}
+header h1 {
+  text-align: left;
+  margin: 0;
+  font-family: 'Pacifico', Helvetica, sans-serif;
+  font-size: 2em;
+  color: #222;
+  text-shadow: 1px 1px 0px #2E2E2E;
+  white-space: nowrap;
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_header\.scss}line{font-family:\0000318}}
+  header h1 {
+    font-size: 2em;
+  }
+}
+@media (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_header\.scss}line{font-family:\0000324}}
+  header h1 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_header\.scss}line{font-family:\0000330}}
+  header h1 {
+    font-size: 4em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\000031}}
+nav {
+  background: #FFF;
+  padding: 10px;
+  width: 100%;
+  -webkit-box-shadow: 0 3px 3px 1px #cccccc;
+  -moz-box-shadow: 0 3px 3px 1px #cccccc;
+  box-shadow: 0 3px 3px 1px #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\000037}}
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 8px;
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000314}}
+nav a:hover {
+  padding: 3px 7px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  border: 1px #AAA solid;
+  color: #555;
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000322}}
+  nav a {
+    padding: 6px 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000325}}
+  nav a:hover {
+    padding: 5px 15px;
+  }
+}
+@media (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000332}}
+  nav a {
+    padding: 8px 18px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000335}}
+  nav a:hover {
+    padding: 7px 17px;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000342}}
+  nav a {
+    padding: 8px 18px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000345}}
+  nav a:hover {
+    padding: 7px 17px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000351}}
+.isStuck {
+  -webkit-box-shadow: 0 3px 4px 1px #777777;
+  -moz-box-shadow: 0 3px 4px 1px #777777;
+  box-shadow: 0 3px 4px 1px #777777;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000355}}
+.isStuck .logo {
+  display: block;
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000355}}
+  .isStuck .logo {
+    display: inline-block;
+  }
+}
+@media (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000355}}
+  .isStuck .logo {
+    display: inline-block;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000355}}
+  .isStuck .logo {
+    display: inline-block;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000362}}
+.logo {
+  display: none;
+  margin: 0 10px 0 0;
+  padding: 0;
+  font-family: 'Pacifico', Helvetica, sans-serif;
+  font-size: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\000031}}
+footer {
+  -sgs-span-settings: ("span": 2, "location": 1, "grid": 2, "gutter": 0.1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\000032}}
+footer section {
+  background: rgba(100, 100, 100, 0.2);
+  padding: 10px;
+  min-height: 3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000311}}
+footer .section1 {
+  -sgs-span-settings: ("span": 2, "location": 1, "grid": 2, "gutter": 0.1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000312}}
+footer .section2 {
+  -sgs-span-settings: ("span": 2, "location": 1, "grid": 2, "gutter": 0.1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000313}}
+footer .section3 {
+  -sgs-span-settings: ("span": 2, "location": 1, "grid": 2, "gutter": 0.1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000314}}
+footer .section4 {
+  -sgs-span-settings: ("span": 2, "location": 1, "grid": 2, "gutter": 0.1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\000031}}
+  footer {
+    -sgs-span-settings: ("span": 8, "location": 1, "grid": 8, "gutter": 0.1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000319}}
+  footer .section1 {
+    -sgs-span-settings: ("span": 2, "location": 1, "grid": 8, "gutter": 0.1, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 24.13793%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000320}}
+  footer .section2 {
+    -sgs-span-settings: ("span": 2, "location": 3, "grid": 8, "gutter": 0.1, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 24.13793%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.28736%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000321}}
+  footer .section3 {
+    -sgs-span-settings: ("span": 2, "location": 5, "grid": 8, "gutter": 0.1, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 24.13793%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 50.57471%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000322}}
+  footer .section4 {
+    -sgs-span-settings: ("span": 2, "location": 7, "grid": 8, "gutter": 0.1, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 24.13793%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\000031}}
+  footer {
+    -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000327}}
+  footer .section1 {
+    -sgs-span-settings: ("span": 3, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000328}}
+  footer .section2 {
+    -sgs-span-settings: ("span": 3, "location": 4, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.42373%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000329}}
+  footer .section3 {
+    -sgs-span-settings: ("span": 3, "location": 7, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 50.84746%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000330}}
+  footer .section4 {
+    -sgs-span-settings: ("span": 3, "location": 10, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 23.72881%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\000031}}
+  footer {
+    -sgs-span-settings: ("span": 16, "location": 1, "grid": 16, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000336}}
+  footer .section1 {
+    -sgs-span-settings: ("span": 4, "location": 1, "grid": 16, "gutter": 0.25, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 24.05063%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000337}}
+  footer .section2 {
+    -sgs-span-settings: ("span": 4, "location": 5, "grid": 16, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 24.05063%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.31646%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000338}}
+  footer .section3 {
+    -sgs-span-settings: ("span": 4, "location": 9, "grid": 16, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 24.05063%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 50.63291%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000339}}
+  footer .section4 {
+    -sgs-span-settings: ("span": 4, "location": 13, "grid": 16, "gutter": 0.25, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 24.05063%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\0000343}}
+footer {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\000034}}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #dddddd 0%, #dddddd 47.61905%, #e5e5e5 47.61905%, #e5e5e5 52.38095%, #dddddd 52.38095%, #dddddd);
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\000034}}
+  body {
+    background-image: linear-gradient(to right, #dddddd 0%, #dddddd 11.49425%, #e5e5e5 11.49425%, #e5e5e5 12.64368%, #dddddd 12.64368%, #dddddd 24.13793%, #e5e5e5 24.13793%, #e5e5e5 25.28736%, #dddddd 25.28736%, #dddddd 36.78161%, #e5e5e5 36.78161%, #e5e5e5 37.93103%, #dddddd 37.93103%, #dddddd 49.42529%, #e5e5e5 49.42529%, #e5e5e5 50.57471%, #dddddd 50.57471%, #dddddd 62.06897%, #e5e5e5 62.06897%, #e5e5e5 63.21839%, #dddddd 63.21839%, #dddddd 74.71264%, #e5e5e5 74.71264%, #e5e5e5 75.86207%, #dddddd 75.86207%, #dddddd 87.35632%, #e5e5e5 87.35632%, #e5e5e5 88.50575%, #dddddd 88.50575%, #dddddd);
+  }
+}
+@media (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\000034}}
+  body {
+    background-image: linear-gradient(to right, #dddddd 0%, #dddddd 6.77966%, #e5e5e5 6.77966%, #e5e5e5 8.47458%, #dddddd 8.47458%, #dddddd 15.25424%, #e5e5e5 15.25424%, #e5e5e5 16.94915%, #dddddd 16.94915%, #dddddd 23.72881%, #e5e5e5 23.72881%, #e5e5e5 25.42373%, #dddddd 25.42373%, #dddddd 32.20339%, #e5e5e5 32.20339%, #e5e5e5 33.89831%, #dddddd 33.89831%, #dddddd 40.67797%, #e5e5e5 40.67797%, #e5e5e5 42.37288%, #dddddd 42.37288%, #dddddd 49.15254%, #e5e5e5 49.15254%, #e5e5e5 50.84746%, #dddddd 50.84746%, #dddddd 57.62712%, #e5e5e5 57.62712%, #e5e5e5 59.32203%, #dddddd 59.32203%, #dddddd 66.10169%, #e5e5e5 66.10169%, #e5e5e5 67.79661%, #dddddd 67.79661%, #dddddd 74.57627%, #e5e5e5 74.57627%, #e5e5e5 76.27119%, #dddddd 76.27119%, #dddddd 83.05085%, #e5e5e5 83.05085%, #e5e5e5 84.74576%, #dddddd 84.74576%, #dddddd 91.52542%, #e5e5e5 91.52542%, #e5e5e5 93.22034%, #dddddd 93.22034%, #dddddd);
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\000034}}
+  body {
+    background-image: linear-gradient(to right, #dddddd 0%, #dddddd 5.06329%, #e5e5e5 5.06329%, #e5e5e5 6.32911%, #dddddd 6.32911%, #dddddd 11.39241%, #e5e5e5 11.39241%, #e5e5e5 12.65823%, #dddddd 12.65823%, #dddddd 17.72152%, #e5e5e5 17.72152%, #e5e5e5 18.98734%, #dddddd 18.98734%, #dddddd 24.05063%, #e5e5e5 24.05063%, #e5e5e5 25.31646%, #dddddd 25.31646%, #dddddd 30.37975%, #e5e5e5 30.37975%, #e5e5e5 31.64557%, #dddddd 31.64557%, #dddddd 36.70886%, #e5e5e5 36.70886%, #e5e5e5 37.97468%, #dddddd 37.97468%, #dddddd 43.03797%, #e5e5e5 43.03797%, #e5e5e5 44.3038%, #dddddd 44.3038%, #dddddd 49.36709%, #e5e5e5 49.36709%, #e5e5e5 50.63291%, #dddddd 50.63291%, #dddddd 55.6962%, #e5e5e5 55.6962%, #e5e5e5 56.96203%, #dddddd 56.96203%, #dddddd 62.02532%, #e5e5e5 62.02532%, #e5e5e5 63.29114%, #dddddd 63.29114%, #dddddd 68.35443%, #e5e5e5 68.35443%, #e5e5e5 69.62025%, #dddddd 69.62025%, #dddddd 74.68354%, #e5e5e5 74.68354%, #e5e5e5 75.94937%, #dddddd 75.94937%, #dddddd 81.01266%, #e5e5e5 81.01266%, #e5e5e5 82.27848%, #dddddd 82.27848%, #dddddd 87.34177%, #e5e5e5 87.34177%, #e5e5e5 88.60759%, #dddddd 88.60759%, #dddddd 93.67089%, #e5e5e5 93.67089%, #e5e5e5 94.93671%, #dddddd 94.93671%, #dddddd);
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000310}}
+#main {
+  -sgs-span-settings: ("span": 2, "location": 1, "grid": 2, "gutter": 0.1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000312}}
+#main article {
+  padding: 10px 10px 10px 20px;
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000310}}
+  #main {
+    -sgs-span-settings: ("span": 5, "location": 1, "grid": 8, "gutter": 0.1, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 62.06897%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+@media (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000310}}
+  #main {
+    -sgs-span-settings: ("span": 8, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 66.10169%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000310}}
+  #main {
+    -sgs-span-settings: ("span": 10, "location": 1, "grid": 16, "gutter": 0.25, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 62.02532%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000332}}
+aside {
+  background: #EFE;
+  padding: 10px;
+  margin: 20px 0;
+  -sgs-span-settings: ("span": 2, "location": 1, "grid": 2, "gutter": 0.1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": (("both": null)));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000332}}
+  aside {
+    -sgs-span-settings: ("span": 3, "location": 6, "grid": 8, "gutter": 0.1, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 36.78161%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000332}}
+  aside {
+    -sgs-span-settings: ("span": 4, "location": 9, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 32.20339%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000332}}
+  aside {
+    -sgs-span-settings: ("span": 6, "location": 11, "grid": 16, "gutter": 0.25, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
+    width: 36.70886%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
