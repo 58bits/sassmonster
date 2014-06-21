@@ -1,4 +1,18 @@
 nav {
-  background: rgba(200, 54, 54, 0.5); 
+  //background: rgba(200, 54, 54, 0.5); 
   padding: $content-padding;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 15px;
+  color: #000;
+}
+
+nav a:hover {
+  padding: 6px 14px;
+  @include border-radius(2px);
+  border: 1px #AAA solid;
+  color: #555;
 }
