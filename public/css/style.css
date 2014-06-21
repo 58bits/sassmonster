@@ -31,8 +31,8 @@ header h1 {
   margin: 0;
   font-family: 'Pacifico', Helvetica, sans-serif;
   font-size: 5em;
-  color: #555;
-  text-shadow: 3px 3px 3px #2E2E2E;
+  color: #222;
+  text-shadow: 1px 1px 1px #2E2E2E;
   white-space: nowrap;
 }
 
@@ -41,9 +41,9 @@ nav {
   background: #FFF;
   padding: 10px;
   width: 100%;
-  -webkit-box-shadow: 0 4px 5px 0px #eeeeee;
-  -moz-box-shadow: 0 4px 5px 0px #eeeeee;
-  box-shadow: 0 4px 5px 0px #eeeeee;
+  -webkit-box-shadow: 0 3px 3px 1px #cccccc;
+  -moz-box-shadow: 0 3px 3px 1px #cccccc;
+  box-shadow: 0 3px 3px 1px #cccccc;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\000038}}
@@ -63,6 +63,27 @@ nav a:hover {
   /* stops bg color from leaking outside the border: */
   border: 1px #AAA solid;
   color: #555;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000322}}
+.isStuck {
+  -webkit-box-shadow: 0 3px 4px 1px #777777;
+  -moz-box-shadow: 0 3px 4px 1px #777777;
+  box-shadow: 0 3px 4px 1px #777777;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000326}}
+.isStuck .logo {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_nav\.scss}line{font-family:\0000332}}
+.logo {
+  display: none;
+  margin: 0 10px 0 0;
+  padding: 0;
+  font-family: 'Pacifico', Helvetica, sans-serif;
+  font-size: 1.5em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/layout\/_footer\.scss}line{font-family:\000031}}
