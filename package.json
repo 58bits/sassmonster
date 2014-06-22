@@ -1,11 +1,11 @@
 {
   "name": "Frontend-Sass",
-  "title": "My frontend playpen",
+  "title": "My front-end playpen",
   "author": "Anthony Bouch",
   "copyright": "2014",
   "version": "0.0.1",
   "private": true,
-  "description": "Frontend sass playpen",
+  "description": "Frontend Sass playpen",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
