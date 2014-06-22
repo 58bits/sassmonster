@@ -155,7 +155,7 @@ module.exports = function(grunt) {
         files: ['public/index.html'],
       },
       sass: {
-        files: '<%= project.app %>/scss/{,*/}*.{scss,sass}',
+        files: '<%= project.app %>/scss/**/*.{scss,sass}',
         tasks: ['sass:dev']
       }
     }

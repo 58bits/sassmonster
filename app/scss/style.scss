@@ -33,6 +33,7 @@ aside {
   background: #EFE;
   padding: $content-padding;
   margin: 20px 0;
+  
   @include grid-span(2, 1, $options: 'both');
 
   @include breakpoint($small) {
@@ -45,6 +46,10 @@ aside {
 
   @include breakpoint($large) {
     @include grid-span(6, 11);
+  }
+
+  .minigrid {
+    @include minigrid_aspect(31%);
   }
 }
 
