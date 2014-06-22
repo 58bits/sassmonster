@@ -18,7 +18,7 @@ nav {
     color: #555;
   }
 
-  @include breakpoint($break) {
+  @include breakpoint($small) {
     a {
       padding: 6px 16px;
     }
@@ -27,7 +27,7 @@ nav {
     }
   }
 
-  @include breakpoint($break2) {
+  @include breakpoint($medium) {
 
     a {
       padding: 8px 18px;
@@ -38,7 +38,7 @@ nav {
     
   }
 
-  @include breakpoint($break3) {
+  @include breakpoint($large) {
     a {
       padding: 8px 18px;
     }
@@ -54,9 +54,9 @@ nav {
 
 .isStuck .logo {
   display: block;
-  @include breakpoint($break) { display: inline-block; }
-  @include breakpoint($break2) { display: inline-block; }
-  @include breakpoint($break3) { display: inline-block; }
+  @include breakpoint($small) { display: inline-block; }
+  @include breakpoint($medium) { display: inline-block; }
+  @include breakpoint($large) { display: inline-block; }
 }
 
 .logo {

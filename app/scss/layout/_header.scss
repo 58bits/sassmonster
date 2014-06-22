@@ -14,19 +14,19 @@ header {
   }
 
 
-  @include breakpoint($break) {
+  @include breakpoint($small) {
     h1 {
       font-size: 2em;
     }
   }
 
-  @include breakpoint($break2) {
+  @include breakpoint($medium) {
     h1 {
       font-size: 3em;
     }
   }
 
-  @include breakpoint($break3) {
+  @include breakpoint($large) {
     h1 {
       font-size: 4em;
     }
