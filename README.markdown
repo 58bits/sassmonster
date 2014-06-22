@@ -42,6 +42,11 @@ If all the required modules and dependencies are installed, you should be able t
 
 To deploy the project run `grunt deploy` (update the server deployment settings in Gruntfile.js first)
 
+##Screenshot
+
+[![Home](http://downloads.58bits.com/sassmonster_s.png "Home page")](http://downloads.58bits.com/sassmonster.png)
+
+
 ## License
 
 GNU AFFERO GENERAL PUBLIC LICENSE
