@@ -49,7 +49,7 @@ nav {
 }
 
 .isStuck {
-  z-index: 1;
+  z-index: z("default");
   @include box-shadow(0, 3px, 4px, 1px, #777, false);
 }
 

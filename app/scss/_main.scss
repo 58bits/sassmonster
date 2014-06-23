@@ -3,6 +3,9 @@
 @import "../../bower_components/sass-toolkit/stylesheets/toolkit";
 @import "../../bower_components/singularity/stylesheets/singularitygs";
 
+
+@import "config";
+@import "helpers/functions";
 @import "helpers/mixins";
 @import "layout/grid";
 @import "layout/header";
