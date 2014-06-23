@@ -1,0 +1,30 @@
+@mixin minigrid_vertical($cellsize) {
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    li {
+      text-align: center;
+      display: inline-block;
+      width: $cellsize;
+      height: $cellsize;
+      margin: 3px;
+      float: left;
+      background-color: #EEE;
+      // http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+
+      p {
+        position: relative;
+        margin: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+    }
+  }
+}

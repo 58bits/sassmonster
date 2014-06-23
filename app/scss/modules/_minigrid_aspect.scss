@@ -1,0 +1,32 @@
+@mixin minigrid_aspect($width) {
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    li {
+      text-align: center;
+      display: inline-block;
+      position: relative;
+      width: $width;
+      height: auto;
+      margin: 3px;
+      float: left;
+      background-color: #EEE;
+
+      span {
+        position:  absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+    }
+
+    li:before{
+      content: "";
+      display: block;
+      margin-top: 100%;  /* initial ratio of 1:1*/
+    }
+  }
+}
