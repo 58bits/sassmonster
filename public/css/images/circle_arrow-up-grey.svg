@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <symbol id="a" viewBox="0 -24 24 24">
+  <path d="m2,-19l20,0l0,3l-20,0l0,-3zm0,5l20,0l0,3l-20,0l0,-3zm0,8l0,-3l20,0l0,3l-20,0z" id="svg_1"/>
+  <path fill="none" d="m24,-24l-24,0l0,24l24,0l0,-24z" id="svg_2"/>
+ </symbol>
+ <g>
+  <title>Layer 1</title>
+  <circle stroke="#cccccc" id="svg_3" r="15.620499" cy="19.5" cx="19.9" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" fill="none"/>
+  <line id="svg_4" y2="29.716074" x2="19.95" y1="10.675" x1="19.95" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#cccccc" fill="none"/>
+  <line stroke="#cccccc" id="svg_10" y2="19" x2="11.7" y1="11" x1="20.4" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" fill="none"/>
+  <line stroke="#cccccc" id="svg_11" y2="19.2" x2="28.4" y1="11.1" x1="19.6" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" fill="none"/>
+ </g>
+</svg>
