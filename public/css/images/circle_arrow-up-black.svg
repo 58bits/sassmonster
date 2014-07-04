@@ -5,8 +5,8 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px"
 	 viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
 <title>Layer 1</title>
-<circle id="svg_3" fill="none" stroke="#CCCCCC" stroke-width="3" cx="19.9" cy="19.5" r="15.621"/>
-<line id="svg_4" fill="none" stroke="#CCCCCC" stroke-width="3" x1="19.95" y1="10.675" x2="19.95" y2="29.716"/>
-<line id="svg_10" fill="none" stroke="#CCCCCC" stroke-width="3" x1="21.062" y1="10.312" x2="11.7" y2="19"/>
-<line id="svg_11" fill="none" stroke="#CCCCCC" stroke-width="3" x1="19.045" y1="10.212" x2="28.133" y2="19.1"/>
+<circle id="svg_3" fill="none" stroke="#231F20" stroke-width="3" cx="19.9" cy="19.5" r="15.621"/>
+<line id="svg_4" fill="none" stroke="#231F20" stroke-width="3" x1="19.95" y1="10.675" x2="19.95" y2="29.716"/>
+<line id="svg_10" fill="none" stroke="#231F20" stroke-width="3" x1="21.062" y1="10.312" x2="11.7" y2="19"/>
+<line id="svg_11" fill="none" stroke="#231F20" stroke-width="3" x1="19.045" y1="10.212" x2="28.133" y2="19.1"/>
 </svg>
