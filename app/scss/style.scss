@@ -1,57 +1,55 @@
-// Import
+// Import 
 @import "main";
-
-body {
+ body {
   margin: 0;
   padding: 0;
   @include background-grid($color: #DDD);
 }
 
-#main {
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  width: 30px;
+  height: 40px;
+  padding: 10px 20px;
+  color: #fff;
+  @include border-radius(2px);
+  background-image: url('images/circle_arrow-up-grey.svg');
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+}
 
-  article { 
+
+#main {
+  article {
     padding: 10px 10px 10px 20px;
   }
-  
-
   @include grid-span(2, 1);
-
   @include breakpoint($small) {
     @include grid-span(5, 1);
   }
-
   @include breakpoint($medium) {
     @include grid-span(8, 1);
   }
-
   @include breakpoint($large) {
     @include grid-span(10, 1);
   }
 }
-
 aside {
   background: #EFE;
   padding: $content-padding;
   margin: 20px 0;
-  
-  @include grid-span(2, 1, $options: 'both');
-
+  @include grid-span(2, 1, $options:'both');
   @include breakpoint($small) {
     @include grid-span(3, 6);
   }
-
   @include breakpoint($medium) {
     @include grid-span(4, 9);
   }
-
   @include breakpoint($large) {
     @include grid-span(6, 11);
   }
-
   .minigrid {
     @include minigrid_aspect(31%);
   }
 }
-
-
-

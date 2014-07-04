@@ -29,4 +29,5 @@ bower_components
 # Users Environment Variables
 .lock-wscript
 
-deploy.txt
+#IDE settings.
+.idea

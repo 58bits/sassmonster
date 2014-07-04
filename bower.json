@@ -18,6 +18,8 @@
     "jquery": "~2.1.1",
     "normalize-css": "~3.0.1",
     "stickUp": "https://github.com/LiranCohen/stickUp.git#~0.5.7"
+    "pushy": "~0.9.1",
+    "scrollup": "~2.3.2"
   },
   "devDependencies": {
     "modular-scale": "~2.0.5",

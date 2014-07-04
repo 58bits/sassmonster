@@ -70,6 +70,27 @@ module.exports = function(grunt) {
     },
     
     /**
+     * Concat javascript
+     * 
+     */
+    concat: {
+      options: {
+        separator: ';',
+        banner: '<%= tag.banner %>',
+      },
+      dist: {
+        src: ['bower_components/jquery/jquery.min.js',
+                'bower_components/stickUp/stickUp.min.js',
+                'bower_components/pushy/js/vendor/modernizr-2.6.2.min.js',
+                'bower_components/pushy/js/pushy.min.js',
+                'bower_components/scrollup/js/jquery.scrollUp.min.js',
+                'app/scripts/app.js'],
+        dest: 'public/scripts/app-concat.js'
+      }
+    },
+
+
+    /**
      * Copy task
      */
     copy: {
@@ -80,7 +101,25 @@ module.exports = function(grunt) {
             src: 'jquery.js',
             dest: 'public/scripts/vendor/jquery/',
             filter: 'isFile'
+        },{
+            expand: true,
+            cwd: 'bower_components/pushy/js/vendor',
+            src: 'modernizr-2.6.2.min.js',
+            dest: 'public/scripts/vendor/pushy/',
+            filter: 'isFile'
         }, {
+            expand: true,
+            cwd: 'bower_components/pushy/js',
+            src: 'pushy.js',
+            dest: 'public/scripts/vendor/pushy/',
+            filter: 'isFile'
+        }, {
+            expand: true,
+            cwd: 'bower_components/scrollup/js/',
+            src: 'jquery.scrollUp.min.js',
+            dest: 'public/scripts/vendor/scrollup/',
+            filter: 'isFile'
+        },  {
             expand: true,
             cwd: 'bower_components/stickUp/',
             src: 'stickUp.min.js',
@@ -165,6 +204,7 @@ module.exports = function(grunt) {
    * Load dependencies.
    */
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-watch');
@@ -175,5 +215,5 @@ module.exports = function(grunt) {
    * Run `grunt` on the command line
    */
   grunt.registerTask('default', ['sass:dev', 'copy', 'connect', 'watch']);
-  grunt.registerTask('deploy', ['sass:dist', 'copy', 'sshexec:deploy']);
+  grunt.registerTask('deploy', ['sass:dist', 'concat', 'sshexec:deploy']);
 };
