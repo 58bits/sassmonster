@@ -44,7 +44,7 @@ To deploy the project run `grunt deploy` (update the server deployment settings 
 
 ##Screenshot
 
-[![Home](http://downloads.58bits.com/sassmonster_s.png "Home page")](http://downloads.58bits.com/sassmonster.png)
+[![Home](http://downloads.58bits.com/sassmonster_s.png "Sassmonster")](http://downloads.58bits.com/sassmonster.png)
 
 
 ## License
