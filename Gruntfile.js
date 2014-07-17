@@ -97,7 +97,7 @@ module.exports = function(grunt) {
       main: {
         files: [{
             expand: true,
-            cwd: 'bower_components/jquery/dist',
+            cwd: 'bower_components/jquery',
             src: 'jquery.js',
             dest: 'public/scripts/vendor/jquery/',
             filter: 'isFile'
