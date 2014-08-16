@@ -403,6 +403,38 @@ body {
 #main article {
   padding: 10px 10px 10px 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\000032}}
+#main #ss-story ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\000037}}
+#main #ss-story ul li {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  width: 48%;
+  height: auto;
+  margin: 3px;
+  float: left;
+  background-color: #EEE;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\0000317}}
+#main #ss-story ul li span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\0000326}}
+#main #ss-story ul li:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+  /* see http://jsfiddle.net/simevidas/PFPDU/ */
+}
 @media (min-width: 770px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000323}}
   #main {
@@ -412,6 +444,38 @@ body {
     margin-right: -100%;
     margin-left: 0;
     clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\000032}}
+  #main #ss-story ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\000037}}
+  #main #ss-story ul li {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 31%;
+    height: auto;
+    margin: 3px;
+    float: left;
+    background-color: #EEE;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\0000317}}
+  #main #ss-story ul li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\0000326}}
+  #main #ss-story ul li:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    /* see http://jsfiddle.net/simevidas/PFPDU/ */
   }
 }
 @media (min-width: 900px) {
@@ -424,6 +488,38 @@ body {
     margin-left: 0;
     clear: none;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\000032}}
+  #main #ss-story ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\000037}}
+  #main #ss-story ul li {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 24%;
+    height: auto;
+    margin: 3px;
+    float: left;
+    background-color: #EEE;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\0000317}}
+  #main #ss-story ul li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\0000326}}
+  #main #ss-story ul li:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    /* see http://jsfiddle.net/simevidas/PFPDU/ */
+  }
 }
 @media (min-width: 1200px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000323}}
@@ -435,9 +531,41 @@ body {
     margin-left: 0;
     clear: none;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\000032}}
+  #main #ss-story ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\000037}}
+  #main #ss-story ul li {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 24%;
+    height: auto;
+    margin: 3px;
+    float: left;
+    background-color: #EEE;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\0000317}}
+  #main #ss-story ul li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/modules\/_minigrid_aspect\.scss}line{font-family:\0000326}}
+  #main #ss-story ul li:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    /* see http://jsfiddle.net/simevidas/PFPDU/ */
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000351}}
 aside {
   background: #EFE;
   padding: 10px;
@@ -450,7 +578,7 @@ aside {
   clear: none;
 }
 @media (min-width: 770px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000351}}
   aside {
     -sgs-span-settings: ("span": 3, "location": 6, "grid": 8, "gutter": 0.1, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
     width: 36.78161%;
@@ -461,7 +589,7 @@ aside {
   }
 }
 @media (min-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000351}}
   aside {
     -sgs-span-settings: ("span": 4, "location": 9, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
     width: 32.20339%;
@@ -472,7 +600,7 @@ aside {
   }
 }
 @media (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tony\/Projects\/Frontend\/Sass\/app\/scss\/style\.scss}line{font-family:\0000351}}
   aside {
     -sgs-span-settings: ("span": 6, "location": 11, "grid": 16, "gutter": 0.25, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
     width: 36.70886%;
@@ -511,6 +639,6 @@ aside .minigrid ul li span {
 aside .minigrid ul li:before {
   content: "";
   display: block;
-  margin-top: 100%;
-  /* initial ratio of 1:1*/
+  padding-top: 100%;
+  /* see http://jsfiddle.net/simevidas/PFPDU/ */
 }

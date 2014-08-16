@@ -146,10 +146,10 @@ module.exports = function(grunt) {
      * SSH and deploy settings
      */
     sshconfig: {
-      yourserver: {
-        host: 'host.yourserver.com',
-        port: 22,
-        username: 'you',
+      clou01: {
+        host: 'cloud01.akhua.com',
+        port: 6122,
+        username: 'tony',
         agent: process.env.SSH_AUTH_SOCK
       }
     },
@@ -157,11 +157,11 @@ module.exports = function(grunt) {
     sshexec: {
       deploy: {
         command: [
-          'cd /home/you/public_html/sassmonster.com',
+          'cd /home/tony/public_html/sassmonster.com',
           'git pull origin master'
         ].join(' && '),
         options: {
-          config: 'yourserver'
+          config: 'clou01'
         }
       }
     },

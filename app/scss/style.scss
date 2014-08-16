@@ -25,14 +25,27 @@
     padding: 10px 10px 10px 20px;
   }
   @include grid-span(2, 1);
+  #ss-story {
+    @include minigrid_aspect(48%);
+  }
+
   @include breakpoint($small) {
     @include grid-span(5, 1);
+    #ss-story {
+      @include minigrid_aspect(31%);
+    }
   }
   @include breakpoint($medium) {
     @include grid-span(8, 1);
+    #ss-story {
+      @include minigrid_aspect(24%);
+    }
   }
   @include breakpoint($large) {
     @include grid-span(10, 1);
+    #ss-story {
+      @include minigrid_aspect(24%);
+    }
   }
 }
 aside {
