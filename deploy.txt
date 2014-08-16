@@ -2,8 +2,8 @@
      * SSH and deploy settings
      */
     sshconfig: {
-      clou01: {
-        host: 'cloud01.akhua.com',
+      cloud04: {
+        host: 'cloud04.akhua.com',
         port: 6122,
         username: 'tony',
         agent: process.env.SSH_AUTH_SOCK
@@ -17,7 +17,7 @@
           'git pull origin master'
         ].join(' && '),
         options: {
-          config: 'clou01'
+          config: 'cloud04'
         }
       }
     },
